@@ -81,21 +81,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Hưn',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
+          {to: '/docs',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Xuân',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Hạ', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/nguyenhun11/HunBlog',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,28 +105,32 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Truyện',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Xuân',
                 to: '/docs/intro',
               },
+              {
+                label: 'Hạ',
+                to: '/blog',
+              }
             ],
           },
           {
-            title: 'Community',
+            title: 'About me',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/nguyen.hung.708327',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Tiktok',
+                href: 'https://www.tiktok.com/@nguyenhun11?_t=ZS-8yESrkkm90E&_r=1',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Email',
+                href: 'giahungcantho11@gmail.com',
               },
             ],
           },
