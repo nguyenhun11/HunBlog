@@ -16,13 +16,13 @@ function HomepageHeader() {
           Truyện của Hưn
         </Heading>
         <p className="hero__subtitle">Nơi lưu giữ kỷ niệm</p>
-        {/* <div className={styles.buttons}>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Đọc truyện 📒
           </Link>
-        </div> */}
+        </div>
       </div>
     </header>
   );
